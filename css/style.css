@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    background-color: slategray;
+    margin: 0px;
 }
+
 #header-top{
     display: flex;
     background-color: #1F2937;
@@ -10,7 +11,7 @@ body {
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 50px ;
-
+    margin: 0px 
 }
 
 .logo{
@@ -21,10 +22,6 @@ body {
     justify-content: flex-start;
 }
 
-body p{
-    font-size: 5px;
-}
-
 .logo h1{
     display: flex;
     font-size: 24px;
@@ -32,6 +29,11 @@ body p{
     font-weight: 900;
     flex: 0.1;
 
+}
+
+.icon img{
+    width: 50px; 
+    height:50px;
 }
 
 
@@ -68,6 +70,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     gap: 70px;
+    margin: 0px;
 }
 
 .desc h2{
@@ -88,7 +91,9 @@ a {
 
 }
 
-.desc-img{
+.header-img img{
+    width: 730px; 
+    height: auto;
     border-radius: 50px;
     max-width: 85vw;
 
@@ -120,6 +125,38 @@ button:hover {
     color: white;
 }
 
+
+
+
+
+
+
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;  
+}
+
+.dept{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.dept img{
+    width: 250px;
+    height: auto;
+}
 
 
 
