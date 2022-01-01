@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    font-family: 'Roboto', "Courier New", Courier, monospace;
 }
 
 #header-top{
@@ -201,16 +202,27 @@ button:hover {
 
 .quotes {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 120px;
+
 }
 
 #quote-text {
     font-size: 36px;
     font-style:italic;
-    color: #1F2937;
+    font-weight: 200px;
+    color: #696969;
+    width: 800px;
 }
 
 #author {
+    font-size: 15px;
+    display: flex;
     font-weight: bold;
+    align-self: flex-end;
 }
 
 /*
