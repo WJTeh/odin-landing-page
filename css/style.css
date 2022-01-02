@@ -261,15 +261,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
 .act button{
     height: 60px;
     width: 200px;
@@ -313,6 +304,18 @@ a {
     right: 0;
 }
 
+
+
+
+
+
+footer{
+    padding: 20px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /*
