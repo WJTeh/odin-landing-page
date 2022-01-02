@@ -74,13 +74,13 @@ a {
     margin: 0px;
 }
 
-.desc h2{
+.title{
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
 
-.desc p{
+.para{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -109,7 +109,7 @@ a {
    
 }
 
-button {
+.desc button {
     width: 180px;
     background-color: #1F2937;
     color: white;
@@ -121,7 +121,7 @@ button {
     transition-duration: 0.4s;
 }
 
-button:hover {
+.desc button:hover {
     background-color: #3882F6;
     color: white;
 }
@@ -219,11 +219,101 @@ button:hover {
 }
 
 #author {
-    font-size: 15px;
+    font-size: 16px;
     display: flex;
     font-weight: bold;
     align-self: flex-end;
 }
+
+.act-sec {
+    background-color: white;
+    padding: 120px 90px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act {
+    width: 1100px;
+    height: auto;
+    border: 0px solid;
+    background-color: #3882F6;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.act-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px ;
+}
+
+.act-text h3{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.act button{
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 10px 5px;
+    border: 2px solid white;
+
+    transition: all o.5s;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+.act button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.act button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.act button:hover span {
+    padding-right: 25px
+}
+
+.act button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
 
 /*
 .middle{
